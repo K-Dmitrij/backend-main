@@ -1,0 +1,11 @@
+INSERT INTO message (text) VALUES ('Hello, it is main topic');
+INSERT INTO message (text) VALUES ('Fortnite topic');
+INSERT INTO message (text) VALUES ('Loocked this ->');
+INSERT INTO message (text) VALUES ('Loocked not this <-');
+INSERT INTO message (text) VALUES ('Hello, what do you use for this?');
+INSERT INTO message (text) VALUES ('Work around');
+INSERT INTO message (text) VALUES ('Traveling');
+INSERT INTO message (text) VALUES ('Genshin Impact');
+INSERT INTO message (text) VALUES ('Maybe true');
+INSERT INTO message (text) VALUES ('Maybe false');
+INSERT INTO message (text) VALUES ('Lol kek cheburek');

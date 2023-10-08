@@ -1,0 +1,2 @@
+-- Your SQL goes here
+ALTER TABLE message ALTER COLUMN created_at TYPE TIMESTAMP WITH TIME ZONE;

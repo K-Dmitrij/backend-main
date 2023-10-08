@@ -1,0 +1,8 @@
+-- Your SQL goes here
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+CREATE TABLE message (
+  id CHAR(36) NOT NULL PRIMARY KEY DEFAULT uuid_generate_v4(),
+  text TEXT NOT NULL,
+  answer_id CHAR(36) REFERENCES message(id) ON DELETE SET NULL DEFAULT NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT NOW()
+);
